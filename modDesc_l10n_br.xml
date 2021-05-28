@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+
+<l10n>
+    <!--
+        Favor contribuir com qualquer outra tradução em
+        https://github.com/DeckerMMIV/FarmSim_Mod_FollowMe
+    -->
+
+    <!-- Adicione seu próprio nome ou apelido aqui, quando você contribuir para a tradução deste arquivo, para que eu saiba quem colocar nos créditos. -->
+    <translationContributors>
+        Guilherme Mentges
+    </translationContributors>
+
+    <!-- Note que a 'descrição' só está aqui para facilitar as traduções. Ela precisa ser copiada manualmente para o ModDesc.XML mais tarde. -->
+    <description>
+Você sempre desejou conduzir veículos como uma coluna sobre o mapa?
+Com "Siga-me" você pode fazer isso (é claro que só dirigindo para frente).
+    </description>
+
+    <texts>
+        <text name="FollowMeAlreadyAI"          text="O trabalhador contratado está usando este veículo" />
+        <text name="FollowMeStartEngine"        text="Ligar o motor primeiro." />
+
+        <text name="FollowMeDropperNotFound"    text="Incapaz de localizar uma (rota) próxima dentro do campo de visão a seguir.
+Aproximar-se do veículo principal, permanecendo atrás dele." />
+
+        <!--text name="FollowMeKeysMyself"         text="%s - Minhas ações de deslocamento"  /-->
+        <!--text name="FollowMeKeysBehind"         text="%s - Ações de controle do seguidor"  /-->
+        <text name="FollowMeMyTurnOn"           text="Ativar"           />
+        <text name="FollowMeMyTurnOff"          text="Desativar"         />
+
+        <text name="FollowMeMyDist"             text="Distância"           />
+        <text name="FollowMeMyOffs"             text="Deslocamento"             />
+        <text name="FollowMeMyWait"             text="Esperar"               />
+        <text name="FollowMeMyResume"           text="Continuar"             />
+        <text name="FollowMeMySensor"           text="Sensor de colisão ligado/desligado" />
+
+        <text name="FollowMeFlDist"             text="Distância do seguidor"    />
+        <text name="FollowMeFlOffs"             text="Deslocamento do seguidor"      />
+        <text name="FollowMeFlWait"             text="Seguidor esperar"        />
+        <text name="FollowMeFlResume"           text="Seguidor continuar"      />
+        <text name="FollowMeFlSensor"           text="Sensor de colisão do seguidor ligado/desligado" />
+
+        <text name="input_FollowMeMyToggle"     text="Alternar entre ligar/desligar"       />
+        <text name="input_FollowMeMyPause"      text="Eu mesmo esperar / continuar"  />
+        <text name="input_FollowMeMyDist_2"     text="Minha distância -"   />
+        <text name="input_FollowMeMyDist_1"     text="Minha distância +"   />
+        <text name="input_FollowMeMyOffs_2"     text="Meu deslocamento à esquerda"  />
+        <text name="input_FollowMeMyOffs_1"     text="Meu deslocamento à direita" />
+        <text name="input_FollowMeMyOffsTgl"    text="Eu seguir o rastro em linha reta" />
+        <text name="input_FollowMeMySensorTgl"  text="Meu sensor de colisão ligado/desligado" />
+
+        <text name="input_FollowMeFlStop"       text="Desativar seguidor"    />
+        <text name="input_FollowMeFlPause"      text="Seguidor esperar / retomar"  />
+        <text name="input_FollowMeFlDist_2"     text="Distância do seguidor -"   />
+        <text name="input_FollowMeFlDist_1"     text="Distância do seguidor +"   />
+        <text name="input_FollowMeFlOffs_2"     text="Deslocar seguidor à esquerda"  />
+        <text name="input_FollowMeFlOffs_1"     text="Deslocar seguidor à direita" />
+        <text name="input_FollowMeFlOffsTgl"    text="Seguidor segui em linha reta" />
+        <text name="input_FollowMeFlSensorTgl"  text="Sensor de colisão do seguidor ligado/desligado" />
+
+        <text name="FollowMeLeader"             text="Líder"               />
+        <text name="FollowMeFollower"           text="Seguidor"             />
+        <text name="FollowMePaused"             text="(Esperando)"            />
+        <text name="FollowMeColliding"          text="(Sensor de colisão)"   />
+        <text name="FollowMeSensorIgnored"      text="(Sensor de colisão: desligado)" />
+        <text name="FollowMeOffLft"             text="Deslocar para à esquerda %.1f"      />
+        <text name="FollowMeOffRgt"             text="Deslocar para à direita %.1f"     />
+        <text name="FollowMeDistBehind"         text="Distância do seguidor %.0f"    />
+        <text name="FollowMeDistAhead"          text="Distância do líder %.0f"     />
+        <!--text name="FollowMeTrailStrength"      text="Trilha %d%%"           /-->
+
+        <!--text name="FollowMeReason1"            text="Seguidor '%s' parado (pelo jogador)"       /-->
+        <!--text name="FollowMeReason2"            text="Seguidor '%s' parado (sem trilha)"        /-->
+        <!--text name="FollowMeReason3"            text="Os seguidores "%s" pararam (muito atrás)"  /-->
+        <!--text name="FollowMeReason4"            text="O seguidor '%s' parou (o líder desapareceu)" /-->
+
+        <text name="ingameNotification_aiVehicleFollowMeLeaderVanished" text="O seguidor '%s' parou (o líder desapareceu)" />
+        <text name="ingameNotification_aiVehicleFollowMeTrailLost"      text="Seguidor '%s' parado (trilha perdida)" />
+    </texts>
+</l10n>
